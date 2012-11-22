@@ -26,6 +26,8 @@
 (eval-when-compile
   (require 'cl))
 
+(require 'url)
+(require 'url-http)
 (require 'moz)
 
 (defgroup moz-markdown-viewer nil
